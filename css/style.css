@@ -1623,3 +1623,97 @@ footer{
     .blog-card{min-width: calc(50% - 15px);}
     /* Blog End */
 }
+
+    /* Responsive Larger Than 768px screen */
+@media (min-width:768px){
+    /* custom property */
+    :root{
+        --fs-1:2.375rem;
+    }
+
+    /* Base start */
+    html{font-size: 17px;}
+    /* Base End */
+
+    /* Reused style start */
+    .container{
+        max-width: 750px;
+        margin: auto;
+    }
+    /* Reused style End */
+
+
+    /* Model Strat */
+    .modal-content{
+        display: flex;
+        align-items: center;
+        max-width: 750px;
+        width: fit-content;
+    }
+    .newletter-img{display: block;}
+    .newsletter{text-align: left;}
+    /* Model End */
+
+    /* Header Start */
+    .header-main .container{gap: 80px;}
+    .header-search-container{flex-grow: 1;}
+    /* Header End */
+
+    /* Banner Start */
+    .slider-item{
+        aspect-ratio: auto;
+        height: 350px;
+    }
+    .banner-content{max-width: 380px;}
+    .banner-subtitle{--fs-7:1.25rem;}
+    .banner-text{--fs-7:1.25rem;}
+    .banner-btn{--fs-11:0.75rem;}
+    /* Banner End */
+
+    /* Category Start */
+    .category-img-box{padding: 20px;}
+    /* Category End */
+
+    /* product Start */
+    .product-minimal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .product-minimal .product-showcase{
+        min-width: calc(50% - 10px);
+        width: calc(50% - 10px);
+    }
+    .product-minimal .showcase-container{min-width: 100%;}
+    .product-featured .showcase{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .product-featured .showcase-img{max-width: fit-content;}
+    .product-featured .showcase-content{
+        margin-top: 0;
+        min-width: calc(100% - 345px);
+    }
+    /* product End */
+
+    /* Footer Start */
+    .footer-nav .container{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 50px;
+        column-gap: 20px;
+    }
+    .footer-nav-list{
+        min-width: calc(33.33% - 15px);
+        width: calc(33.33% - 15px);
+        flex-grow: 1;
+    }
+    .footer-nav-list:not(:last-child){margin-bottom: 0;}
+
+    /* Footer End */
+}
+
+    
