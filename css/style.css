@@ -2001,7 +2001,7 @@ footer{
 
 
     /* banner Start */
-    .slider-item:last-child .banner-img
+    .slider-item:last-child .banner-img{}
     /* banner End */
 }
 
