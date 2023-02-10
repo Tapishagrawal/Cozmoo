@@ -1478,3 +1478,18 @@ footer{
 }
     /* Footer Nav End */
 
+    /* ----------------------------- */
+            /* Responsive */
+    /* ----------------------------- */
+    
+    /* Responsive Larger Than 480px screen */
+@media (min-width:480px){
+
+    /* Custom Property */
+
+    :root{
+
+        /* Typography */
+        ----fs-1: 1.875rem;
+    }
+}
