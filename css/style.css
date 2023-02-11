@@ -2001,7 +2001,61 @@ footer{
 
 
     /* banner Start */
-
+    .slider-item:last-child .banner-img{object-position: top;}
     /* banner End */
+
+    /* Category Start */
+    .category-item{min-width: calc(25% - 22.5px);}
+    .category-item-title{--fs-9:0.824rem}
+    /* Category End */
+
+
+    /* Product Start */
+    .product-featured .showcase > div{min-width: calc(50% - 10px);}
+    .product-featured .display-number{--fs-5:1.125rem}
+    .product-grid{grid-template-columns: repeat(4,1fr);}
+    /* Product End */
+
+
+    /* Testimonial, CTA, Service Start */
+    .testimonial, .service{
+        min-width: calc(25% - 20px);
+        width: calc(25% - 20px);
+    }
+    .cta-container{
+        min-width: calc(50% - 20px);
+        width: calc(50% - 20px);
+        aspect-ratio: unset;
+    }
+    .service-container{
+        justify-content: flex-start;
+        gap: 16px;
+        padding: 30px;
+    }
+    .service-item{
+        flex-direction: row;
+        text-align: left;
+    }
+    /* Testimonial, CTA, Service End */
+
+
+    /* blog Start */
+    .blog{margin-bottom: 50px;}
+    .blog-card{min-width: calc(25% - 22.5px);}
+    /* blog End */
+
+
+    /* Footer Start */
+    footer{padding-top: 50px;}
+    .footer-category{
+        margin-bottom: 50px;
+        padding-bottom: 35px;
+    }
+    .footer-nav{padding-bottom: 50px;}
+    /* Footer End */
 }
 
+    /* Responsive Larger Than 1400px screen */
+@media (min-width:1400px){
+
+}
