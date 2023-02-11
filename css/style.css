@@ -2057,5 +2057,17 @@ footer{
 
     /* Responsive Larger Than 1400px screen */
 @media (min-width:1400px){
+    /* Base */
+    html{font-size: 18px;}
 
+    /* Reused style  */
+    .container{max-width: 1350px;}
+
+    /* banner start */
+    .slider-item{height: 450px;}
+    .banner-content{
+        left: 100px;
+        max-width: 460px;
+    }
+    /* banner End */
 }
