@@ -2063,6 +2063,9 @@ footer{
     /* Reused style  */
     .container{max-width: 1350px;}
 
+    .desktop-menu-category-list {
+        padding: 13px 0;
+    }
     /* banner start */
     .slider-item{height: 450px;}
     .banner-content{
